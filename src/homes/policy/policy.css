@@ -1,0 +1,75 @@
+
+  
+  
+	
+	
+	
+	
+	
+	
+	.header h1 {
+		font-size: 1.5em;
+		color: #08eb9f;
+	}
+	
+	.header .user-info {
+		display: flex;
+		align-items: center;
+		position: relative;
+	}
+	
+	.header .user-info img {
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		margin-right: 10px;
+		transition: transform 0.2s ease-in-out;
+		cursor: pointer;
+	}
+	
+	.header .user-info img:hover {
+		transform: scale(1.1);
+	}
+	
+	/* Section de déconnexion */
+	#logoutSection {
+		position: absolute;
+		top: 60px; /* Ajuster pour être sous l'image */
+		right: 0;
+		background-color: white;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		border-radius: 8px;
+		padding: 10px;
+		z-index: 1000;
+		min-width: 170px;
+	}
+	
+	#logoutSection::before {
+		content: '';
+		position: absolute;
+		top: -10px;
+		right: 20px;
+		border-width: 10px;
+		border-style: solid;
+		border-color: transparent transparent #ffffff transparent;
+	}
+	
+	#logoutSection p {
+		margin: 0;
+		font-size: 14px;
+	}
+	
+	/* Bouton de déconnexion */
+	#logoutButton {
+		margin-top: 8px;
+		padding: 5px 10px;
+		background-color: #cc1a15;
+		color: white;
+		border: none;
+		border-radius: 4px;
+		cursor: pointer;
+	}
+	
+	#logoutButton:hover {
+		background-color: #b10d0a;
+	}

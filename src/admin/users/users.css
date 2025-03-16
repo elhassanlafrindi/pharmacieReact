@@ -1,0 +1,70 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  thead {
+    background-color: #239f85;
+    color: white;
+  }
+  .h2ad{
+    color: #09473a;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .kolchi{
+    height: 79vh;
+    /*background-image: url('./mli77.jpeg');*/
+  }
+  
+
+  
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .radio-groupad {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .radio-groupad label {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #09473a; ;
+  }
+  
+  .radio-groupad input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+  
+  button {
+    margin-left: 15px;
+    padding: 5px 10px; 
+    font-size: 14px; 
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+ 

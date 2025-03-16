@@ -1,0 +1,121 @@
+
+.mainSection {
+    display: flex;
+    position: relative;
+    background-image: url('../images/mli74.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;;
+    height: 40em;
+}
+
+.mainSection::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);  
+    z-index: -1; 
+}
+
+.contentBox{
+    width: 50%;
+    padding: 1em;
+    color: rgb(255, 255, 255);
+}
+.contentBox h1{
+    font-size: 2.5rem;
+    color: #f0f0f0;
+}
+.contentBox pre{
+    font-size: 1.2em;
+    margin: 1rem 0;
+    font-family: "Poppins", sans-serif;
+
+}
+.btnBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+    
+}
+.btn {
+    border: 4px solid transparent; 
+    border-radius: 2em; 
+    padding: 6px 16px; 
+    background-color: rgb(221, 218, 218); 
+    color: #048f71; 
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none; 
+    display: inline-block; 
+    transition: all 0.3s ease; 
+}
+
+.btn:hover {
+    background-color: #f0f0f0; 
+    cursor: pointer; 
+    transform: scale(1.05); 
+}
+
+.readMore {
+    color: #048f71; 
+    text-decoration: none; 
+    font-size: 1.2em;
+    font-family: "Poppins", sans-serif;
+}
+.imgContainer{
+    width: 50%;
+    
+}
+.img{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    
+}
+@media (max-width: 900px) {
+    html{
+        font-size:13px;
+    }
+    .mainSection {
+       flex-direction: column;
+    }
+    .contentBox{
+        width: 90%;
+        margin: 0 auto;
+     }
+    .contentBox h1{
+        font-size: 2rem;
+    }
+    .contentBox pre{
+        font-size: 1.1em;
+    }
+    .imgContainer{
+        width: 80%;
+    }
+}
+@media (max-width: 768px) {
+    html{
+        font-size:14px;
+    }
+    .mainSection {
+        flex-direction: column;
+     }
+     .contentBox{
+        width: 100%;
+        margin: 0 auto;
+     }
+     .contentBox h1{
+        font-size: 2rem;
+    }
+    .imgContainer{
+        width: 80%;
+    }
+}

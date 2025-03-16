@@ -1,0 +1,69 @@
+[
+    
+        
+    {
+        "title": "Profile",
+        "icon": "bi-person-fill",
+        "childrens": [
+            {
+                "title": "Profile",
+                "icon": "bi-person-fill",
+                "path": "/pharmacien/profilePh"
+            },
+            
+            {
+                "title": "Logout",
+                "icon": "bi-box-arrow-left",
+                "path": "/connection"
+            },
+            {
+                "title": "Reset Password",
+                "icon": " bi-arrow-repeat",
+                "path": "/pharmacien/forgotPassPh"
+            }
+        ]
+    },
+           
+            {
+                "title": "Contact",
+                "icon": "bi-phone-fill",
+                "childrens": [
+                    {
+                        "title": "Facebook",
+                        "icon": "bi-facebook",
+                        "path": "https://facebook.com"
+                    },
+                    {
+                        "title": "Twitter",
+                        "icon": "bi-twitter",
+                        "path": "https://twitter.com"
+                    },
+                    {
+                        "title": "Instagram",
+                        "icon": "bi-instagram",
+                        "path": "https://instagram.com"
+                    },
+                    {
+                        "title": "LinkedIn",
+                        "icon": "bi-linkedin",
+                        "path": "https://linkedin.com"
+                    }
+                ]
+            },
+        
+    
+   
+    
+    {  
+                "title": "Ordonnances Recues",
+                "icon": "bi bi-eye",
+                "path": "/pharmacien/ordonnancePh" 
+
+    },
+   
+    {
+        "title": "Policy",
+        "icon": "bi-question-circle-fill",
+        "path": "/pharmacien/support"
+    }
+]

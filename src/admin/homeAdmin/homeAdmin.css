@@ -1,0 +1,17 @@
+.homadmin h1{
+    color: rgb(2, 59, 45);
+}
+.homadmin
+{display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+font-family: "Montserrat", sans-serif;
+height: 79vh;
+margin: 3px 0 0px;
+background-image: url('./mli77.jpeg');
+
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}

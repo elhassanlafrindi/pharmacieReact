@@ -1,0 +1,131 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #239f85;
+    padding: 10px 0;
+    color: white;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    z-index: 100;
+    height: 40px;
+  }
+  
+  .containerr {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+  }
+  
+  .iconss {
+    display: flex;
+    justify-content:  space-between; 
+    align-items: center;
+  }
+  
+  .iconn {
+    font-size: 24px;
+    margin: 0 20px;
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .iconn:hover {
+    color: #ff5d22;
+  }
+  
+  .home {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  .imghome {
+    width: auto;
+    height: 75px;
+    max-width: 110px;
+    object-fit: contain;
+  }
+  .imghome:hover{
+    width: auto;
+    height: 80px;
+    max-width: 120px;
+    object-fit: contain;
+  }
+  
+  .cory-right {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+  }
+  
+  .cory-right pre {
+    font-size: 12px;
+    white-space: pre-line;
+    color: #fff;
+    margin-top: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    html{
+        font-size:13px;
+    }
+    footer{
+        height: 120px;
+    }
+    .containerr {
+      flex-direction: column; 
+      align-items: center;
+    }
+  
+    .iconss {
+        margin-bottom: 0px;
+      }
+    
+      .imghome {
+        max-width: 30px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        height: 30px;
+      }
+      .cory-right pre {
+        font-size: 9px;
+        white-space: pre-line;
+        color: #fff;
+        margin-top: 0px;
+      }
+  }
+  @media screen and (max-width:568px){
+    html{
+        font-size:11px;
+    }
+    footer{
+        height: 120px;
+    }
+    .containerr {
+        flex-direction: column; 
+        align-items: center;
+      }
+    
+      .iconss {
+        margin-bottom: 0px;
+      }
+    
+      .imghome {
+        max-width: 24px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        height: 30px;
+      }
+      .cory-right pre {
+        font-size: 8px;
+        white-space: pre-line;
+        color: #fff;
+        margin-top: 0px;
+      }
+}
+  

@@ -1,0 +1,79 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  thead {
+    background-color: #239f85;
+    color: white;
+  }
+  .h2{
+    color: #09473a;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  td img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .radio-group {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0); /* خلفية شفافة */
+  }
+  
+  .radio-group label {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #09473a; ;
+  }
+  
+  .radio-group input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+  
+  button {
+    margin-left: 15px;
+    padding: 5px 10px; /* جعل الزر أصغر */
+    font-size: 14px; /* حجم الخط أصغر */
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  .close{
+    background-color: red;
+    color: #fff;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

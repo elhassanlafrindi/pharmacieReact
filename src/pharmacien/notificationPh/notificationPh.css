@@ -1,0 +1,38 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  thead {
+    background-color: #239f85;
+    color: white;
+  }
+  .ph2{
+    color: #09473a;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+ 
+  
+  button {
+    padding: 5px 10px;
+    color: white;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 9px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  .unseenph {
+    background-color: #d10505; 
+}
+  

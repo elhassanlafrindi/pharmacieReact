@@ -1,0 +1,81 @@
+[ {
+    "title": "Profile",
+    "icon": "bi-person-fill",
+    "childrens": [
+        {
+            "title": "Profile",
+            "icon": "bi-person-fill",
+            "path": "/patient/profile"
+        },
+       
+        {
+            "title": "Logout",
+            "icon": "bi-box-arrow-left",
+            "path": "/connection"
+        },
+        {
+            "title": "Reset Password",
+            "icon": " bi-arrow-repeat",
+            "path": "/patient/forgotPass"
+        }
+    ]
+},
+            {
+                "title": "Contact",
+                "icon": "bi-phone-fill",
+                "childrens": [
+                    {
+                        "title": "Facebook",
+                        "icon": "bi-facebook",
+                        "path": "https://facebook.com"
+                    },
+                    {
+                        "title": "Twitter",
+                        "icon": "bi-twitter",
+                        "path": "https://twitter.com"
+                    },
+                    {
+                        "title": "Instagram",
+                        "icon": "bi-instagram",
+                        "path": "https://instagram.com"
+                    },
+                    {
+                        "title": "LinkedIn",
+                        "icon": "bi-linkedin",
+                        "path": "https://linkedin.com"
+                    }
+                ]
+            },
+            {
+                "title": "MAPS",
+                "icon": "bi-map-fill",
+                "path": "/patient/maps2"
+            },
+        
+    
+   
+    
+    {
+        "title": "Advance",
+        "icon": "bi-view-list",
+        "childrens": [
+            
+            {
+                "title": "Suivre Commande",
+                "icon": "bi bi-eye",
+                "path": "/patient/history" 
+
+            },
+            {
+                "title": "Hist.Commandes",
+                "icon": "bi-clock-history",
+                "path": "/patient/historique"
+            }
+        ]
+    },
+    {
+        "title": "Policy",
+        "icon": "bi-question-circle-fill",
+        "path": "/patient/support"
+    }
+]

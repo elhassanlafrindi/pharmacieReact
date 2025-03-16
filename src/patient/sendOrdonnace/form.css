@@ -1,0 +1,101 @@
+.formula {
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 5px;
+}
+.formula form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+  padding: 20px;
+  height: 600px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.274),
+    /* استخدم شفافية أقل لزيادة السطوع */ rgba(255, 255, 255, 0.274)
+  );
+}
+
+.formula h2 {
+  text-align: center;
+  color: #11493d;
+}
+
+
+
+.pharmacy-info {
+  width: 60%; /* Adjust to control column width */
+  
+}
+
+.input2 {
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0;
+  border: 0.6px solid #239f85;
+  border-radius: 10px;
+}
+.input3 {
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0;
+  border: 0.6px solid #239f85;
+  border-radius: 10px;
+  background-color: #11866d;
+}
+
+.formula label {
+  display: block;
+  font-weight: bold;
+  margin: 10px 0 5px;
+  color: #075544;
+}
+
+.submit-buttoni {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.submit-buttoni button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-buttoni button:hover {
+  background-color: #45a049;
+}
+.delivery-method {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.delivery-method h3 {
+  margin-bottom: 10px;
+}
+
+.delivery-method label {
+  margin-right: 15px;
+  font-weight: bold;
+}
+.preview-container {
+  margin-top: 20px;
+  text-align: center;
+  border: 5px solid #ff5d22;
+}
+
+.preview-image {
+  width: 300px;
+  height: 500px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html{
+    height: 100vh;
+  }
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #fff;
+    height: 100vh;
+  }
+  
+  
+  
+  
+  .containerp2{
+    flex-grow: 1;
+    padding: 2em;
+    background-image: radial-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../../patient/images/mli77.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  .main2 {
+    display: flex;
+    position: relative;
+    height: 100vh;
+  }
+  
+  
+  .menuin-btn {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    padding: 10px;
+    background: #239f85;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1000; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+ 
+  
+  .menuin-btn:hover {
+    background: #ff5d22;
+  }
+  .menuin2-btn:hover {
+    background: #ff5d22;
+  }
+  
+  
+  .menuin2-btn {
+    position: fixed;
+    top: 15px;
+    right: 70px;
+    padding: 12px;
+    background: #239f85;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center; /* محاذاة الأيقونة في المنتصف */
+    justify-content: center; /* محاذاة الأيقونة في المنتصف */
+  }
+  
+  .notification2-count {
+    position: absolute;
+    top: -5px; /* ضبط المسافة العلوية للعدد */
+    right: -5px; /* ضبط المسافة اليمنى للعدد */
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 5px 8px;
+    display: inline-block;
+  }
+  

@@ -1,0 +1,61 @@
+.fr form {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: linear-gradient(to bottom, #ffffff00, #f9f9f97e);
+}
+
+.fr h2 {
+  text-align: center;
+  color: #0c5345;
+  margin-bottom: 20px;
+}
+
+.form-containerff {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+}
+
+
+.inputpp {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #239f85;
+  border-radius: 10px;
+  box-sizing: border-box; 
+}
+
+.fr label {
+  display: block;
+  font-weight: bold;
+  margin: 10px 0 5px;
+  color: #075544;
+}
+
+.submit-buttonpp {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.submit-buttonpp button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-buttonpp button:hover {
+  background-color: #45a049;
+}

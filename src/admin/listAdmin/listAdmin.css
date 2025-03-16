@@ -1,0 +1,141 @@
+:root{
+    --mainColor:#239f85;
+    --secclr:#ff5d22;
+    --third:#DFE4E0;
+    --mainafterclr:hsl(167, 81%, 79%);
+}
+header{
+    background-color: var(--mainColor);
+    
+}
+.container-flexAdmin{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoAdmin{
+    width: 50px;
+    padding: .5em 0;
+}
+.listItemAdmin{
+    margin-left: 2em;
+    color:#DFE4E0;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+}
+.listItemAdmin:after{
+    content: '';
+    background: var(--secclr);
+    width: 0;
+    height: 3px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 5px;
+    transition: .3s;
+}
+.listItemAdmin:hover:after{
+    content: '';
+    background: var(--secclr);
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 5px;
+}
+.activeItemAdmin{
+    color:#ff5d22;
+    border-bottom: .1em double #ff5d22;
+}
+.iconsAdmin{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.iconAdmin{
+    color:#DFE4E0;
+    font-size: 1.5rem !important;
+    margin-right: 1em;
+    margin-left: 1.5em;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+.iconAdmin:hover {
+    color: #ff5d22;
+  }
+.listAdmin{
+    display:flex;
+   
+}
+.menuAd-btn {
+    position: fixed;
+    top: 15px;
+    right: 70px;
+    padding: 10px;
+    background: #239f85;
+    cursor: pointer;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+  }
+  
+  .notificationAd-count {
+    position: absolute;
+    top: -5px; 
+    right: -5px; 
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 5px 8px;
+    display: inline-block;
+  }
+  
+
+@media screen and (max-width:768px){
+    .iconAdmin{
+      
+        margin-left: 1em;
+    }
+}
+
+@media screen and (max-width:768px){
+
+    html{
+        font-size:13px;
+    }
+    .container-flexAdmin{
+        flex-direction: column;
+        }
+        .logeAdmin{
+            width: 150;
+        }
+
+}
+@media screen and (max-width:568px){
+    html{
+        font-size:11px;
+    }
+    .listAdmin{
+        flex-direction: column;
+    }
+    .listItemAdmin{
+        margin-top: .2em;
+    }
+    .logoAdmin{
+        width: 40px;
+        padding: .5em 0;
+    }
+    .iconAdmin{
+      
+        margin:1em 1.5em;
+        
+    }
+    
+}

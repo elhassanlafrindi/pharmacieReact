@@ -1,0 +1,49 @@
+.not{
+ 
+
+  height: 35em;
+  background-image: radial-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../images/mli77.jpeg');
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.274), 
+      rgba(255, 255, 255, 0.274)
+  );
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    
+  }
+  
+  thead {
+    background-color: #239f85;
+    color: white;
+  }
+  .h2{
+    color: #09473a;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+ 
+  
+  button {
+    padding: 5px 10px;
+    color: white;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 9px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  .unseen {
+    background-color: #d10505; 
+}
+  

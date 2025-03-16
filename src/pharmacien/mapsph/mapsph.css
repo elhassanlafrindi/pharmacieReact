@@ -1,0 +1,86 @@
+.profilePh {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 610px;
+  padding: 30px;
+  border: 1px solid #ddd;
+  margin-left:200px ;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.274), 
+      rgba(255, 255, 255, 0.274)
+  );
+}
+
+.profilePh div {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start;
+  width: 100%;
+}
+
+.profilePh h2 {
+  text-align: center;
+  color: #0f493d;
+}
+
+.profilePh strong {
+  color: #227a66;
+}
+
+.inputprPh {
+  width: 500px;
+  max-width: 600px;
+  padding: 3px;
+  margin-bottom:5px;
+  border: 0.6px solid #239f85;
+  border-radius: 10px;
+}
+
+.profilePh span {
+color: #0c221f;}
+.profilePh p {
+  color: #f10000;}
+.btPh{
+  margin-top: 5px;
+  margin-left: 200px;
+  width: 130px;
+  display: flex;
+  border-radius: 10px;
+
+}
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  max-width: 500px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  z-index: 1000;
+}
+
+.modal-content {
+  padding: 20px;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between; 
+  margin-top: 20px;
+}
+.profilePh a {
+  display: inline-block;
+  color: #007bff;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.profilePh a:hover {
+  text-decoration: underline;
+}

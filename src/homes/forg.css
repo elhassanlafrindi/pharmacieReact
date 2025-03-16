@@ -1,0 +1,66 @@
+.forg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35em;
+    background-image: url('./images/mli79.jpeg'); 
+       
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Formulaire */
+  .forg-form {
+    padding: 2rem;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.651);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  /* Titre */
+  .forg-form h2 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: #0c7068;
+  }
+  
+  /* Champ Input */
+  .forg-input {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1.5rem;
+    border: 2px solid #0ccca2;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.3s, box-shadow 0.3s;
+  }
+  
+  .forg-input:focus {
+    border-color: #0bb8a9;
+    box-shadow: 0 0 8px rgba(8, 179, 179, 0.5);
+  }
+  
+  /* Bouton */
+  .forg-button {
+    background-color: #12a88f;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .forg-button:hover {
+    background-color: #05ffc9;
+    transform: translateY(-2px);
+  }
+  
+  .forg-button:active {
+    transform: translateY(0);
+  }
+  

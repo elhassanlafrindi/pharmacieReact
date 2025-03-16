@@ -1,0 +1,15 @@
+.searchContainer input {
+    width: 40%;
+    padding: 8px;
+    margin-bottom: 5px;
+    
+    border: .6px solid #239f85;
+    border-radius: 5px;
+  }
+  .searchContainer{
+    margin-bottom: "10px";
+    margin-left: -8em;
+  }
+  .hada{
+    margin-top: -10px;
+  }

@@ -1,0 +1,91 @@
+import React from 'react';
+import "./forgotP.css";
+import { useState } from "react";
+import {  useNavigate } from 'react-router-dom';
+function ForgotPass() {
+  const navigate = useNavigate();
+    const [newPass, setnewPass] = useState("");
+    const [confPass, setconfPass] = useState("");
+const [userData, setUserData] = useState(() => {
+    const data = localStorage.getItem("userData");
+    return data ? JSON.parse(data) : null;
+  });
+  const valide = async () => {
+    if (newPass !== confPass) {
+        alert("Les mots de passe ne correspondent pas"); 
+        return;
+    }
+
+    try {
+        const response = await fetch(`http://localhost:8080/web2/api/patient/${userData.id}/resetPassword`, {
+            method: 'PUT',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ newPassword: newPass }),
+        });
+
+        let result;
+        try {
+            result = await response.json(); 
+        } catch (e) {
+            const text = await response.text(); 
+            result = { message: text }; 
+        }
+
+        if (response.ok) {
+            alert("Mot de passe réinitialisé avec succès!"); 
+            navigate('/patient/maps2');
+        } else {
+            alert("Erreur " ); 
+        }
+    } catch (error) {
+        alert("Erreur " ); 
+    }
+};
+
+
+  
+
+  return (
+    <div className='fr' style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '100vh'}}>
+      <form>
+        <h2>Reset Password</h2>
+
+        <div className="form-containerff">
+          <div className="pharmacy-info">
+            
+
+            <label>nouvelle mot de passe:</label>
+            <input
+              className="inputpp"
+              type="password"
+              
+              onChange={(e) => setnewPass(e.target.value)}
+            />
+
+            <label>confirmer mot de passe:</label>
+            <input
+              className="inputpp"
+              type="password"
+              
+              onChange={(e) => setconfPass(e.target.value)}
+            />
+          </div>
+        </div>
+
+        <div className="submit-buttonpp">
+          <button onClick={valide} type="button">
+            Valider
+          </button>
+        </div>
+      </form>
+    </div>
+  );
+}
+
+export default ForgotPass;
